@@ -1,0 +1,21 @@
+.header__button {
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.header__button--phone {
+    background: #ffffff;
+    border: none;
+}
+.header__button--phone:hover {  
+    background: rgba(255, 255, 255, 0.3)
+}
+
+.header__button--back {
+    background: #000000;
+    border: 1px solid #4b4b4b;
+}
+.header__button--back:hover {
+    background: #3d3d3d;
+}

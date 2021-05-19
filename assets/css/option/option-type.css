@@ -1,0 +1,12 @@
+.option__type {
+    background: none;
+    border: none;
+    border-left: 1px solid #ffffff;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    vertical-align: middle;
+    color: #fff;
+}   
+.option__type:focus {
+    outline: none;
+}

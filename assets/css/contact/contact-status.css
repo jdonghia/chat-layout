@@ -1,0 +1,8 @@
+.contact__status {
+    border: 1px solid #4b4b4b;
+    border-radius: .8rem;
+    color: #ffffff;
+    display: inline-block;
+    font-size: .85rem;
+    padding: .4rem .6rem;
+}

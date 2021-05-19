@@ -1,0 +1,18 @@
+.message__container {
+    align-items: center;
+    background: #0f0f0f;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 1.5rem; 
+}
+
+.message__container--active {
+    background: #ff5a19;
+    border-top-left-radius: 0;
+    width: 45%;
+}
+
+.message__container--unactive {
+    width: 90%;
+}

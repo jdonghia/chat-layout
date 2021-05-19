@@ -1,0 +1,14 @@
+.main {
+    background: #000;
+    color: #FFFFFF;
+  
+}
+
+@media screen and (min-width: 1366px) {
+    .main {
+        border-radius: 2rem;
+        margin: 4rem auto;
+        width: 27.5%;  
+    }
+}
+

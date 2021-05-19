@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Chat</title>
+
+    <!-- Normalize and Reset -->
+    <link rel="stylesheet" href="assets/css/default/normalize.css">
+    <link rel="stylesheet" href="assets/css/default/reset.css">
+
+    <!-- Google Fonts / Roboto-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- Main -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Header -->
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-button.css">
+    <link rel="stylesheet" href="assets/css/header/header-icon.css">
+
+    <!-- Contact -->
+    <link rel="stylesheet" href="assets/css/contact/contact.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-img.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-name.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-status.css">
+
+    <!-- Chat -->
+    <link rel="stylesheet" href="assets/css/chat/chat.css">
+
+    <!-- Chat message -->
+    <link rel="stylesheet" href="assets/css/chat/message/message.css">
+    <link rel="stylesheet" href="assets/css/chat/message/message-container.css">
+    <link rel="stylesheet" href="assets/css/chat/message/message-button.css">
+    <link rel="stylesheet" href="assets/css/chat/message/message-img.css">
+    <link rel="stylesheet" href="assets/css/chat/message/message-status.css">
+
+    <!-- Message check -->
+    <link rel="stylesheet" href="assets/css/chat/message/check/check.css">
+
+    <!-- Option -->
+    <link rel="stylesheet" href="assets/css/option/option.css">
+    <link rel="stylesheet" href="assets/css/option/option-button.css">
+    <link rel="stylesheet" href="assets/css/option/option-img.css">
+    <link rel="stylesheet" href="assets/css/option/option-type.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <button class="header__button header__button--back"><i
+                    class="header__icon header__icon--back fas fa-chevron-left"><span class="sr-only"
+                        style="display: none">Go back</span></i></button>
+            <button class="header__button header__button--phone"><i
+                    class="header__icon header__icon--phone fas fa-phone-alt"><span class="sr-only"
+                        style="display: none">Call</span></i></button>
+        </header>
+
+        <section class="contact">
+            <img src="assets/img/johnson.png" alt="Contact image" class="contact__img">
+            <h1 class="contact__name">Mr.Johnson</h1>
+            <h2 class="contact__status">Online</h2>
+        </section>
+
+        <section class="chat">
+            <div class="message">
+                <div class="message__container message__container--active">
+                    <button class="message__button message__button--stop-audio">
+                        <i class="message__img message__img--stop-audio fas fa-stop"></i>
+                    </button>
+                    <i class="message__img message__img--frequency fas fa-wave-square"></i>
+                    <h3 class="message__status">• Listening</h3>
+                </div>
+
+                <div class="check">
+                    <span class="sr-only" style="display: none;">Message unchecked</span>
+                    <h3 class="check__hour">12:23 PM</h3>
+                </div>
+            </div>
+            <div class="message">
+                <div class="check check--verified">
+                    <i class="message__img message__img--check-double fas fa-check-double">
+                        <span class="sr-only" style="display: none;">Message checked</span>
+                    </i>
+                    <h3 class="check__hour">02:23 AM</h3>
+                </div>
+                <div class="message__container">
+                    <p class="message__status">Hi, Let's Play</p>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message__container message__container--unactive">
+                    <button class="message__button message__button--play-audio">
+                        <i class="message__img message__img--play-audio fas fa-play"></i>
+                    </button>
+                    <i class="message__img message__img--frequency fas fa-wave-square"></i>
+                    <h3 class="message__status">Mr.Johnson - October 26</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="option">
+            <button class="option__button option__button--photo">
+                <i class="option__img option__img--photo fas fa-camera"></i>
+                <span class="sr-only" style="display:none;">Take photo</span>
+            </button>
+            <input type="text" class="option__type" placeholder="Type something...">
+            <button class="option__button option__button--send">
+                <i class="option__img option__img--send fab fa-google-play">
+                    <span class="sr-only" style="display: none;">Send</span>
+                </i>
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>

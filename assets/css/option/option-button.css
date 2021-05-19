@@ -1,0 +1,17 @@
+.option__button {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.option__button--photo {
+    margin-right: 1.5rem;
+}
+
+.option__button--send {
+    background: #ff5a19;
+    border-radius: 50%;
+    height: 3.2rem;
+    margin-right: 1rem;
+    width: 3.2rem; 
+}

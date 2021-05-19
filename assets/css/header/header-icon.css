@@ -1,0 +1,13 @@
+.header__icon {
+    font-size: .875rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.header__icon--phone {
+    color: #000000;
+}
+
+.header__icon--back {
+    color: #dddddd;
+}
